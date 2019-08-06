@@ -16,6 +16,17 @@ body {
   text-align: center;
 }
 
+.header {
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 78px;
+  color: white;
+}
+
 #method {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: normal;

@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className='container'>
+        <h1 className='header'>BMI CONVERTER</h1>
         <MethodSelect 
           method={this.state.method}
           onChangeValue={this.methodChange}
@@ -43,6 +44,7 @@ class App extends Component {
                 onChange={(e) => this.setState({ height: e.target.value })} />
             </div>
           </div>
+
           <div className="display">
           <DisplayResult
             weight={this.state.weight}
